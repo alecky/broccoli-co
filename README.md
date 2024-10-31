@@ -1,1 +1,3 @@
-# broccoli-co
+# Broccoli & co
+
+How to set up?
