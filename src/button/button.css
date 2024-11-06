@@ -1,0 +1,16 @@
+.button {
+    background: none;
+    border: 1px solid #999;
+    padding: 20px;
+    transition-duration: 0.4s;
+    font-size: medium;
+}
+
+.button:hover {
+    background: #444;
+    color: #FFF;
+}
+.button.medium {
+    padding: 5px;
+    align-items: center;
+}

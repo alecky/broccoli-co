@@ -1,0 +1,11 @@
+.invite-form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.invite-form-wrapper button {
+    margin-top: 20px
+}
+.submit-error-message {
+    color: #F00;
+    font-size: smaller;
+}

@@ -1,0 +1,11 @@
+.header {
+    position: sticky;
+    top: 0;
+    border: 1px solid #CCC;
+    padding: 20px 10%;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 2vw;
+}
