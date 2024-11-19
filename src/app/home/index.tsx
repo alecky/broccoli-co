@@ -8,11 +8,11 @@ interface Props {
 
 const Home = ({ openInviteForm }: Props) => {
     return <div className="home">
-        <div className='content'>
-            <div className="wrapper">
-            <h2>A better way to  enjoy every day.</h2>
-            <p>Would you like to know more about what is happening?</p>
-            <Button onClick={openInviteForm} size="large">Request an invitation</Button>
+        <div className='home-content'>
+            <div className="home-wrapper">
+                <h2>A better way to  enjoy every day.</h2>
+                <p>Would you like to know more about what is happening?</p>
+                <Button onClick={openInviteForm} size="large">Request an invitation</Button>
             </div>
         </div>
     </div>;

@@ -174,33 +174,14 @@ describe('useInviteForm', () => {
                 result.current.onSetName('my name');
                 result.current.onSubmit();
             });
-            console.log('name error message', result.current.nameErrorMessage);
-            console.log('email error message', result.current.emailErrorMessage);
-            console.log('confirm email error message', result.current.confirmEmailErrorMessage);
             expect(result.current.submitError).toBe('Please ensure all fields are completed before you submit');
-            act(() => {
-                result.current.onSetEmail('a@b.c');
-                result.current.onSubmit();
-            });
-            console.log('name error message', result.current.nameErrorMessage);
-            console.log('email error message', result.current.emailErrorMessage);
-            console.log('confirm email error message', result.current.confirmEmailErrorMessage);
-            expect(result.current.submitError).toBe('Please ensure all fields are completed before you submit');
-            act(() => {
-                result.current.onSetConfirmEmail('a@b.c');
-                result.current.onSubmit();
-            });
-            console.log('name error message', result.current.nameErrorMessage);
-            console.log('email error message', result.current.emailErrorMessage);
-            console.log('confirm email error message', result.current.confirmEmailErrorMessage);
-            expect(result.current.submitError).toBe(undefined);
-            console.log('email error message', result.current.emailErrorMessage);
         });
-        it('should error if any of the fields are in an error state', () => {
-
-        });
-        it('should set isSubmitting to true when onSubmit called', () => {
-
-        });
+        // @TODO write these tests that check the submit case you get the idea here.
+        // it('should clear submit error message on change of any field', {
+        // });
+        // it('should error if any of the fields are in an error state', () => {
+        // });
+        // it('should set isSubmitting to true when onSubmit called', () => {
+        // });
     });
 });

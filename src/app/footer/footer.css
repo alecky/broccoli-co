@@ -1,8 +1,12 @@
 .footer {
-    position: sticky;
-    bottom: 0;
     text-align: center;
-    padding: 20px 10%;
     border: 1px solid #CCC;
-    font-size: 2vw;
+    font-size: 1em;
+    grid-column: 1 / 2;
+}
+
+@media (min-width: 900px) {
+    .footer {
+        grid-column: 1 / 9;
+    }
 }
